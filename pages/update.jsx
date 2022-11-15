@@ -15,7 +15,7 @@ export default function Update() {
   return (
     <Layouts title="Update">
       <div className="mt-10">
-        <h1 className="text-xl font-bold text-green-500 uppercase text-center my-3">
+        <h1 className="text-xl font-bold text-sky-500 uppercase text-center my-3">
           Update
         </h1>
         <p className="text-center mb-3">
