@@ -15,7 +15,7 @@ export default function Popular() {
   return (
     <Layouts title="Populer">
       <div className="mt-3">
-        <h1 className="text-xl font-bold text-green-500 uppercase text-center my-3">
+        <h1 className="text-xl font-bold text-sky-500 uppercase text-center my-3">
           Populer
         </h1>
         <p className="text-center mb-3">
