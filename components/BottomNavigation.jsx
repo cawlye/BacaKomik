@@ -42,13 +42,13 @@ export default function BottomNavigation() {
   }, [])
 
   return (
-    <div className="sticky inset-x-0 bottom-0 bg-green-500 text-white">
+    <div className="sticky inset-x-0 bottom-0 bg-sky-500 text-white">
       <div className="grid grid-cols-4">
         {navs.map(({ title, path, icon }, i) => (
           <Link key={i} href={path[0]}>
             <a
               className={`px-3 pt-2 pb-1 sm:p-3 text-center inline-block text-sm duration-300 ${
-                active === path ? 'bg-green-600' : ''
+                active === path ? 'bg-sky-600' : ''
               }`}
             >
               <div className="max-w-max mx-auto">{icon}</div>
