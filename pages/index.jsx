@@ -41,6 +41,9 @@ export default function Home() {
 
   return (
     <Layouts title="Home">
+        <h1 className="text-xl font-bold text-black-500 uppercase text-center my-3">
+          Baca komik/manhwa bahasa Indonesia secara gratis tanpa iklan di <strong>Cawlye Comic!</strong>
+        </h1>
       <div className="grid md:grid-cols-2 gap-3 my-3">
         <div></div>
         <div>
@@ -60,7 +63,7 @@ export default function Home() {
             Pencarian
           </h1>
           <p className="text-center mb-3">
-            Berikuut ini hasil pencarian dari <strong>{searchQuery}</strong>
+            Berikut ini hasil pencarian dari <strong>{searchQuery}</strong>
           </p>
           {searchComics && (
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-7 gap-3 mx-auto">
@@ -75,11 +78,11 @@ export default function Home() {
       {/* Baru */}
 
       <div className="mt-10">
-        <h1 className="text-xl font-bold text-green-500 uppercase text-center my-3">
+        <h1 className="text-xl font-bold text-sky-500 uppercase text-center my-3">
           Terbaru
         </h1>
-        <p className="text-center mb-3">
-          Berikut ini {newComics ? newComics.length : 0} komik terbaru.
+        <p className="text-center mb-3 text-black-500 uppercase text-center my-3">
+          Berikut {newComics ? newComics.length : 0} komik terbaru.
         </p>
         {newComics && (
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-7 gap-3 mx-auto">
