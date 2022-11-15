@@ -8,7 +8,7 @@ export function NoData({ error }) {
       {error && (
         <>
           <h1 className="text-xl text-red-500 font-bold mb-3">Yaahh :(</h1>
-          <p>Gagal memuat komik, pastikan kamu terhubung ke internet.</p>
+          <p>Terjadi Kesalahan saat memuat komik, pastikan kamu terhubung ke internet.</p>
         </>
       )}
     </Layouts>
