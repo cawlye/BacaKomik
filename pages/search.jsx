@@ -51,7 +51,7 @@ export default function Search() {
   return (
     <Layouts title="Search">
       <div className="mt-3">
-        <h1 className="text-xl font-bold text-green-500 uppercase text-center my-3">
+        <h1 className="text-xl font-bold text-black-500 uppercase text-center my-3">
           Pencarian
         </h1>
 
