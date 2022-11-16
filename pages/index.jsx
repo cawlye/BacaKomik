@@ -51,7 +51,7 @@ export default function Home() {
             onChange={searching}
             type="search"
             placeholder="Cari komik..."
-            className="px-3 py-2 ml-auto outline-none block border-green-500 border hover:ring ring-green-500/50 duration-300 rounded-lg w-full"
+            className="px-3 py-2 ml-auto outline-none block border-yellow-500 border hover:ring ring-green-500/50 duration-300 rounded-lg w-full"
           />
         </div>
       </div>
